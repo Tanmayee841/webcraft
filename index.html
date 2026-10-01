@@ -1,0 +1,122 @@
+ <link rel="stylesheet" type="text/css" href="index.html">
+
+<nav>
+	<div class="logo-container">
+		<h2>WebCraft</h2>
+    </div>
+    <div class="link-container">
+    	<a href="#">HOME</a>
+    	<a href="#">ABOUT</a>
+    	<a href="#">SERVICES</a>
+    	<a href="#">FEATURES</a>
+    	<a href="#">CONTACT</a>
+	</div>
+</nav>
+<div class="hero">
+	<div class="hero-text">
+		<h1>Build Something<br>Amazing</h1>
+		 <p>Design anything you can imagine<br>Turn your ideas into apps,websites and product</p>
+	<button class="Explore-btn">Explore Services</button>
+</div>
+    <div class="hero-image-container">
+	<img class="hero-card-img" src="ui design.svg">
+    </div>
+</div>
+
+<div class="about-section">
+	<h2>About Us</h2>
+</div>
+
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Arial, sans-serif;
+	}
+
+	nav{
+		background: black;
+		color: white;
+		display: flex;
+		height: 60px;
+		align-items: center;
+		padding: 40px;
+	}
+	.logo-container{
+		width: 30%;
+		color: sandybrown;
+	}
+	.link-container{
+		width: 70%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		gap: 25px;
+	}
+	.link-container>a{
+		text-decoration: none;
+		color: white;
+		font-size: 14px;
+	}
+	.link-container > a:hover{
+		color: white;
+	}
+	.hero{
+		background-color: pink;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 60px 80px;
+		min-height: 400px;
+	}
+	.hero-text{
+		width: 50%;
+	}
+	.hero-text h1{
+		font-size: 42px;
+		color: darkcyan;
+		margin-bottom: 20px;
+		line-height: 1.2;
+	}
+	.hero-text p{
+		font-size: 16px;
+		color: white;
+		margin-bottom: 30px;
+		line-height: 1.5;
+		max-width: 450px;
+	}
+	.explore-btn{
+		background-color: lavenderblush;
+		color: black;
+		padding: 12px 24px;
+		border: none;
+		border-radius: 4px;
+		font-size: 14px;
+		cursor: pointer;
+	}
+    .hero-image-container{
+    	width: 100%;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+    .hero-card-img{
+		width: 100%;
+		max-width: 1000px
+		height: auto;
+		display: block;
+		border-radius: 8px;
+	}
+	.about-section{
+		text-align: center;
+		padding: 50px 20px;
+		background-color: white;
+	}
+    .about-section h2{
+		font-size: 28px;
+		color: darkgoldenrod;
+	}
+
+</style>
